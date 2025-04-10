@@ -4,9 +4,9 @@ package laboratorioCiclos;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class InicioSesion {
+public class InicioSesión {
     public static final Logger LOGGER
-            =Logger.getLogger(InicioSesion.class.getName());
+            =Logger.getLogger(InicioSesión.class.getName());
 
     public static void main(String[] args) {
         //Realizar un programa que indique usuario y  contraseña con un máximo de 3 intentos.
