@@ -36,6 +36,7 @@ public class InicioSesionMejorado {
                     String pregunta = sc.next();
                     if (pregunta.equals(preguntaSis)){
                         LOGGER.info("Bienvenido!");
+                        break;
                     }else{
                         LOGGER.info("El color es incorrecto");
                         intentosMejor ++;
